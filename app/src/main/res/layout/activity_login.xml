@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/icontalk"
+        android:layout_marginTop="120dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textSize="28dp"
+        android:fontFamily="@font/nanumgothicbold"
+        android:textColor="#040404"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/login_email"
+        android:layout_marginTop="25dp"
+        android:layout_width="288dp"
+        android:layout_height="50dp"
+        android:paddingLeft="22dp"
+        android:background="@drawable/edit_box"
+        android:elevation="5dp"
+        android:fontFamily="@font/nanumgothic"
+        android:hint="이메일을 입력하세요"
+        android:textSize="13sp"/>
+
+    <EditText
+        android:id="@+id/login_name"
+        android:layout_marginTop="18dp"
+        android:layout_width="288dp"
+        android:layout_height="50dp"
+        android:paddingLeft="22dp"
+        android:background="@drawable/edit_box"
+        android:elevation="5dp"
+        android:fontFamily="@font/nanumgothic"
+        android:hint="이름을 입력하세요"
+        android:textSize="13sp"/>
+
+    <EditText
+        android:id="@+id/login_pwd"
+        android:layout_marginTop="18dp"
+        android:layout_width="288dp"
+        android:layout_height="50dp"
+        android:paddingLeft="22dp"
+        android:background="@drawable/edit_box"
+        android:elevation="5dp"
+        android:fontFamily="@font/nanumgothic"
+        android:hint="비밀번호를 입력하세요"
+        android:textSize="13sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="22dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nanumgothic"
+            android:text="아직 계정이 없으신가요?"
+            android:textSize="12sp"/>
+
+        <Button
+            android:id="@+id/login_join"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:text="회원가입"
+            android:textSize="12sp"
+            android:fontFamily="@font/nanumgothic"
+            android:textColor="#9c9c9c"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_box"
+        android:backgroundTint="#9C9C9C"
+        android:text="LOGIN"
+        android:textColor="#FFF"
+        android:layout_marginTop="25dp"/>
+
+</LinearLayout>

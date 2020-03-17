@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JoinActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:textSize="32dp"
+        android:fontFamily="@font/nanumgothicbold"
+        android:textColor="#040404"
+        android:layout_marginTop="120dp"/>
+
+    <EditText
+        android:id="@+id/sign_email"
+        android:layout_marginTop="70dp"
+        android:layout_width="288dp"
+        android:layout_height="50dp"
+        android:paddingLeft="22dp"
+        android:background="@drawable/edit_box"
+        android:elevation="5dp"
+        android:fontFamily="@font/nanumgothic"
+        android:hint="이메일을 입력하세요"
+        android:textSize="13sp"/>
+
+    <EditText
+        android:id="@+id/sign_name"
+        android:layout_marginTop="25dp"
+        android:layout_width="288dp"
+        android:layout_height="50dp"
+        android:paddingLeft="22dp"
+        android:background="@drawable/edit_box"
+        android:elevation="5dp"
+        android:fontFamily="@font/nanumgothic"
+        android:hint="이름을 입력하세요"
+        android:textSize="13sp"/>
+
+    <EditText
+        android:id="@+id/sign_pwd"
+        android:layout_marginTop="25dp"
+        android:layout_width="288dp"
+        android:layout_height="50dp"
+        android:paddingLeft="22dp"
+        android:background="@drawable/edit_box"
+        android:elevation="5dp"
+        android:fontFamily="@font/nanumgothic"
+        android:hint="비밀번호를 입력하세요"
+        android:textSize="13sp"/>
+
+    <Button
+        android:id="@+id/sign_btn"
+        android:layout_marginTop="50dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_box"
+        android:backgroundTint="#9c9c9c"
+        android:textColor="#fff"
+        android:text="SING UP"/>
+
+</LinearLayout>
